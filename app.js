@@ -8,7 +8,7 @@ console.log(date());
 
 const app = express();
 let newItems = ["Buy Food", "Cook Food", "Eat Food"];
-let workItems = ["Reply to emails"];
+let workItems = ["Reply to emails", "Make coffee"];
 
 app.set('view engine', 'ejs');
 
